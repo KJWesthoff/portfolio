@@ -1,24 +1,43 @@
-import logo from './logo.svg';
+
+import React, { useState} from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee, faGlobeEurope } from '@fortawesome/free-solid-svg-icons';
+import Header from './components/Header/Header.js' 
+import Nav from './components/Nav/Nav.js';
+
 import './App.css';
 
+
+
+
 function App() {
+  const [contactSelected, setContactSelected] = useState(false);
+
+  const [categories] = useState([
+    {name: "about", description: "Brief about me" },
+    {name: "portfolio", description:"A selection of software development projects i have made"},
+    {name: "resume", description: "my cv" },
+    {name: "contact", description: "How i can be reached" }
+  
+  ]);
+  
+  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+   <Header 
+    // props to be drilled down to Nav
+    contactSelected = {contactSelected}
+    setContactSelected = {setContactSelected}
+    currentCategory = {currentCategory}
+    setCurrentCategory = {setCurrentCategory}
+    categories = {categories}
+   >
+
+    </Header>
+
+    
+
   );
 }
 
