@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee, faGlobeEurope } from '@fortawesome/free-solid-svg-icons';
 import Header from './components/Header/Header.js' 
 import Nav from './components/Nav/Nav.js';
+import About from './components/About/About'
 
 import './App.css';
 
@@ -24,7 +25,7 @@ function App() {
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
   
   return (
-
+    <>
    <Header 
     // props to be drilled down to Nav
     contactSelected = {contactSelected}
@@ -32,11 +33,10 @@ function App() {
     currentCategory = {currentCategory}
     setCurrentCategory = {setCurrentCategory}
     categories = {categories}
-   >
-
-    </Header>
-
+    />
     
+    <About />
+    </>
 
   );
 }
