@@ -5,7 +5,8 @@ import Header from './components/Header/Header.js'
 import Footer from './components/Footer/Footer.js'
 import About from './components/About/About'
 import Portfolio from './components/Portfolio/Portfolio'
-
+import Resume from './components/Resume/Resume'
+import Contact from './components/Contact/Contact'
 
 import './App.css';
 
@@ -31,6 +32,10 @@ function App() {
         return <About />;
       case 'projects':
         return <Portfolio />;
+      case 'resume':
+          return <Resume />;
+      case 'contact':
+          return <Contact />;
       default:
         return <About />;
     }
@@ -53,7 +58,7 @@ function App() {
      
      
      
-      <content className = "flex flex-grow">
+      <content className = "flex flex-grow justify-center">
         {renderPage(currentCategory)}
       </content>
      
