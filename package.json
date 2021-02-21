@@ -1,5 +1,5 @@
 {
-  "homepage":"http://KJWesthoff.github.io/portfolio",
+  "homepage": "http://KJWesthoff.github.io/portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -24,7 +24,7 @@
     "test": "craco test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build"
+    "deploy": "gh-pages -b develop -d build"
   },
   "eslintConfig": {
     "extends": [
