@@ -23,6 +23,7 @@ function ProjectCard(props) {
           src={`${props.project.coverPhoto}`}
           width="300"
         />
+        {console.log(props.project.coverPhoto)}
       </div>
       <div className="content flex flex-col text-gray-500 text-sm ml-2">
         <a href={props.project.url_deployed}>

@@ -1,5 +1,5 @@
 import React from "react";
-
+//import selfie from "../../assets/selfie.jpeg"
 function About() {
   
   
@@ -35,7 +35,7 @@ function About() {
         </div>
         <img
           className="border-4"
-          src={process.env.PUBLIC_URL+"./images/selfie.jpeg"}
+          src="images/selfie.jpeg" //{selfie}
           width="200"
           alt = "selfie of me"
         ></img>
