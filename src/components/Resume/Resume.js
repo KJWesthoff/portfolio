@@ -4,12 +4,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBootstrap,
   faCss3,
-  faCss3Alt,
   faGit,
   faGithub,
   faHtml5,
   faJs,
-  faLinkedin,
   faNodeJs,
   faNpm,
   faReact,

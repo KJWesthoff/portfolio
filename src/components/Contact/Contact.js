@@ -49,6 +49,7 @@ function ContactForm() {
         <div className="mt-3 mb-3 flex flex-col">
           <label className= "mr-2" htmlFor="name">Name:</label>
           <input 
+            className = "text-gray-500" 
             type="text"
             name="name"
             defaultValue={name}
@@ -58,6 +59,7 @@ function ContactForm() {
         <div className="mt-3 mb-3 flex flex-col">
           <label  className="mr-2" htmlFor="email">Email address:</label>
           <input
+            className = "text-gray-500"
             type="email"
             name="email"
             defaultValue={email}
@@ -67,6 +69,7 @@ function ContactForm() {
         <div className="mt-3 mb-3 flex flex-col">
           <label  className="mr-2" htmlFor="message">Message:</label>
           <textarea
+            className = "text-gray-500"
             name="message"
             rows="5"
             defaultValue={message}
