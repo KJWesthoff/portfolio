@@ -8,9 +8,6 @@ function Header(props) {
 
     return(
         <header className="flex items-center bg-gray-500 shadow-lg h-20">
-      
-        
-        
 
         <div className="justify-start flex items-center">
           <a href="#" className="text-white text-3xl font-bold p-3">

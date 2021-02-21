@@ -14,7 +14,7 @@ import './App.css';
 
 
 function App() {
-  const [aboutSelected, setAboutSelected] = useState(true);
+ 
 
   const [categories] = useState([
     {name: "about", description: "Brief about me" },
@@ -48,8 +48,6 @@ function App() {
      <header>
      <Header
       // props to be drilled down to Nav
-      aboutSelected = {aboutSelected}
-      setAboutSelected = {setAboutSelected}
       currentCategory = {currentCategory}
       setCurrentCategory = {setCurrentCategory}
       categories = {categories}

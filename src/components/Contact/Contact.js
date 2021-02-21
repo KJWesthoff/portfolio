@@ -43,7 +43,7 @@ function ContactForm() {
   }
 
   return (
-    <section className = "text-white m-5 p-3 bg-gray-500 shadow-lg rounded">
+    <section className = "text-white m-5 p-3 bg-gray-500 lg:w-1/3 md:w-1/3 sm:w-full shadow-lg rounded">
       <h1>Contact Me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div className="mt-3 mb-3 flex flex-col">
