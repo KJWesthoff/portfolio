@@ -1,8 +1,8 @@
 
 import React, { useState} from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faGlobeEurope } from '@fortawesome/free-solid-svg-icons';
+
 import Header from './components/Header/Header.js' 
+import Footer from './components/Footer/Footer.js'
 import About from './components/About/About'
 import Portfolio from './components/Portfolio/Portfolio'
 
@@ -25,21 +25,42 @@ function App() {
   
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
   
+  const renderPage = () => {
+    switch (currentCategory.name) {
+      case 'about':
+        return <About />;
+      case 'projects':
+        return <Portfolio />;
+      default:
+        return <About />;
+    }
+  };
+
+  
   return (
     <>
-   <Header 
-    // props to be drilled down to Nav
-    aboutSelected = {aboutSelected}
-    setAboutSelected = {setAboutSelected}
-    currentCategory = {currentCategory}
-    setCurrentCategory = {setCurrentCategory}
-    categories = {categories}
-    />
-    
-    {aboutSelected &&  <About /> }
-   
-    <Portfolio></Portfolio>
-
+   <div className= "flex flex-col h-screen">
+     <header>
+     <Header
+      // props to be drilled down to Nav
+      aboutSelected = {aboutSelected}
+      setAboutSelected = {setAboutSelected}
+      currentCategory = {currentCategory}
+      setCurrentCategory = {setCurrentCategory}
+      categories = {categories}
+      />
+      </header>
+     
+     
+     
+      <content className = "flex flex-grow">
+        {renderPage(currentCategory)}
+      </content>
+     
+      <footer>
+        <Footer/>
+      </footer>
+   </div>
     </>
 
     

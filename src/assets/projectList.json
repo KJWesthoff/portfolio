@@ -58,12 +58,20 @@
         "url_gitHub": "https://github.com/KJWesthoff/Notetaker"
 
     }, 
-        {
+    {
         "id":7,
         "name":"The Tech Blog",
         "coverPhoto":"./images/projectImages/TheTechBlog.png",
         "url_deployed":"https://enigmatic-springs-63938.herokuapp.com/",
         "url_gitHub": "https://github.com/KJWesthoff/TheTechBlog"
+
+    },
+    {
+        "id":8,
+        "name":"Weather dashboard",
+        "coverPhoto":"./images/projectImages/WeatherDashBoard.png",
+        "url_deployed":"https://kjwesthoff.github.io/WeatherDashboard/",
+        "url_gitHub": "https://github.com/KJWesthoff/WeatherDashboard"
 
     }
 ]
