@@ -5,8 +5,8 @@ import {capitalizeFirstLetter} from "../../utils/helpers"
 function Nav(
   {setCurrentCategory,
   currentCategory,
-  contactSelected,
-  setContactSelected,
+  aboutSelected,
+  setAboutSelected,
   categories}) {
   
   useEffect(() => {
@@ -22,7 +22,7 @@ function Nav(
         <li
           className={`sm:inline-block hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium ${
             currentCategory.name === category.name &&
-            !contactSelected &&
+            !aboutSelected &&
             "navActive"
           }`}
           key={category.name}
@@ -30,7 +30,11 @@ function Nav(
           <span
             onClick={() => {
               setCurrentCategory(category);
-              setContactSelected(false);
+              if(category.name === 'about'){
+              setAboutSelected(true);
+              } else {
+                setAboutSelected(false);
+              }
             }}
           >
             {capitalizeFirstLetter(category.name)}

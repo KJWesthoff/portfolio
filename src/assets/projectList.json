@@ -1,0 +1,72 @@
+    [
+
+
+    {
+        "id":0,
+        "name":"Logophile",
+        "coverPhoto":"./images/projectImages/LogoPhile.png",
+        "url_deployed":"https://damp-ocean-64357.herokuapp.com/",
+        "url_gitHub": "https://github.com/KJWesthoff/BookReview"
+
+    },  
+    {
+        "id":1,
+        "name":"Trein",
+        "coverPhoto":"./images/projectImages/Trein.png",
+        "url_deployed":"https://kjwesthoff.github.io/GroupChallenge1/",
+        "url_gitHub": "https://github.com/KJWesthoff/GroupChallenge1"
+
+    }, 
+    {
+        "id":2,
+        "name":"Task Master",
+        "coverPhoto":"./images/projectImages/TaskMaster.png",
+        "url_deployed":"https://kjwesthoff.github.io/taskmaster-pro/",
+        "url_gitHub": "https://github.com/KJWesthoff/taskmaster-pro"
+
+    }, 
+
+    {
+        "id":3,
+        "name":"Pizza Hunt",
+        "coverPhoto":"./images/projectImages/PizzaHunt.png",
+        "url_deployed":"https://tranquil-scrubland-94006.herokuapp.com/",
+        "url_gitHub": "https://github.com/KJWesthoff/pizza-hunt"
+
+    }, 
+    {
+        "id":4,
+        "name":"Budget Tracker",
+        "coverPhoto":"./images/projectImages/BugetTracker.png",
+        "url_deployed":"https://intense-ravine-11513.herokuapp.com/",
+        "url_gitHub": "https://github.com/KJWesthoff/ProgressiveWebApp"
+
+    },        
+    {
+        "id":5,
+        "name":"Zoo Keepr",
+        "coverPhoto":"./images/projectImages/Zookeepr.png",
+        "url_deployed":"https://infinite-lake-49771.herokuapp.com/",
+        "url_gitHub": "https://github.com/KJWesthoff/zookeepr"
+
+    }, 
+    {
+        "id":6,
+        "name":"Note Taker",
+        "coverPhoto":"./images/projectImages/NoteTaker.png",
+        "url_deployed":"https://hidden-gorge-33051.herokuapp.com/",
+        "url_gitHub": "https://github.com/KJWesthoff/Notetaker"
+
+    }, 
+        {
+        "id":7,
+        "name":"The Tech Blog",
+        "coverPhoto":"./images/projectImages/TheTechBlog.png",
+        "url_deployed":"https://enigmatic-springs-63938.herokuapp.com/",
+        "url_gitHub": "https://github.com/KJWesthoff/TheTechBlog"
+
+    }
+]
+
+
+

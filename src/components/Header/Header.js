@@ -3,7 +3,7 @@ import Nav from "../Nav/Nav"
 
 
 function Header(props) {
-
+    console.log(props.aboutSelected)
 
 
     return(
@@ -14,7 +14,7 @@ function Header(props) {
 
         <div className="justify-start flex items-center">
           <a href="#" className="text-white text-3xl font-bold p-3">
-            Portfolio
+            Portfolio {props.aboutSelected}
           </a>
 
           <p id="hamburgerbtn" className="md:hidden bg-gray-800">
