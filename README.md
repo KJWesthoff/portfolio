@@ -18,12 +18,20 @@
  
 
   ## Project Description:
-  Portfolio page for me showing some og the projects i've made during the Coding-Bootcamp. The app is made purely as a front end using React for functionality, Tailwind for styling and react-font awesome to make it awesome. The app is made so it works both on small and large screens, below are some screenshots:
-  ### Mobile first
+  Portfolio page for me showing some og the projects i've made during the Coding-Bootcamp.
+  ### Application Stack
+  The app is made purely as a front end and hosted on GitHub using: 
+  * React for functionality
+  * Tailwind for styling 
+  * React-font awesome to make it awesome. 
+  
 
-  ![screenshot](public/images/ScreenshotMobile.png)
+  ### Mobile first
+  The app is made so it works both on small and large screens, below are some screenshots:
+
+  ![screenshot](ScreenshotMobile.png)
    ### Desktop
-  ![screenshot](public/images/ScreenshotDesktop.png)
+  ![screenshot](ScreenshotDesktop.png)
 
 
   ## Installation Instructions:
@@ -31,7 +39,7 @@
   ## How To Use
   The app is deployed here https://kjwesthoff.github.io/portfolio/ 
   see it on mobile here:
-  ![screenshot](public/images/qrcode_kjwesthoff.github.io.png)
+  ![screenshot](qrcode_kjwesthoff.github.io.png)
   ## How to Contribute:
   * Bug fixes and suggestions are super welcome
   * Checkout the github repo and please raise any issues with React Portfolio you come across 
